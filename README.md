@@ -1,27 +1,46 @@
-# Essentials
+# 🧩 Task Management App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
+A sleek and intuitive **Task Management Web App** built with **Angular**, designed to help users **create, edit, and organize tasks** effortlessly — all stored securely in the browser’s **local storage**.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<div align="center">
+  <img alt="Demo" src="./src/assets/task-management.png" />
+</div>
 
-## Code scaffolding
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🚀 Features
 
-## Build
+- ✅ **Add, Edit, and Delete Tasks** — Full CRUD functionality on the frontend.  
+- 💾 **Local Storage Integration** — Tasks persist even after a page refresh.  
+- 🧠 **Task Completion Toggle** — Mark tasks as done with instant visual feedback.  
+- 🎨 **Clean & Responsive UI** — Styled with modern Angular components and SCSS.  
+- ⚡ **Fast & Lightweight** — Runs entirely in the browser, no backend required.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+---
 
-## Running unit tests
+## 🛠️ Tech Stack
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+| Layer | Technology |
+|:------|:------------|
+| **Frontend** | Angular, TypeScript, HTML, SCSS |
+| **Storage** | Browser Local Storage |
+| **Tools** | RxJS, Angular CLI |
 
-## Running end-to-end tests
+---
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## ⚙️ Installation & Setup
 
-## Further help
+Follow these steps to run the project locally:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+# Clone the repository
+git clone https://github.com/Chiragmanral/Task-Management-App.git
+cd Task-Management-App
+
+# Install dependencies
+npm install
+
+# Run the development server
+ng serve
